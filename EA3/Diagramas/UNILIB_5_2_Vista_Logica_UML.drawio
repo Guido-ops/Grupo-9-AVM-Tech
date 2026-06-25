@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="2">
+  <diagram name="5.2.1 Diagrama de Clases UML" id="0">
+    <mxGraphModel dx="1571" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#17365D;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Diagrama de Clases UML - Sistema UNILIB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="520" x="390" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rol" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Rol&lt;/b&gt;&lt;hr/&gt;- idRol: int&lt;br/&gt;- nombreRol: String&lt;br/&gt;- descripcion: String&lt;hr/&gt;+ crearRol()&lt;br/&gt;+ modificarRol()&lt;br/&gt;+ consultarRol()" vertex="1">
+          <mxGeometry height="165" width="130" x="165" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="usuario" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Usuario&lt;/b&gt;&lt;hr/&gt;- idUsuario: int&lt;br/&gt;- rut: String&lt;br/&gt;- nombre: String&lt;br/&gt;- apellido: String&lt;br/&gt;- correo: String&lt;br/&gt;- estado: String&lt;hr/&gt;+ iniciarSesion()&lt;br/&gt;+ registrarUsuario()&lt;br/&gt;+ modificarUsuario()&lt;br/&gt;+ desactivarUsuario()" vertex="1">
+          <mxGeometry height="225" width="160" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="categoria" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Categoria&lt;/b&gt;&lt;hr/&gt;- idCategoria: int&lt;br/&gt;- nombreCategoria: String&lt;br/&gt;- descripcion: String&lt;hr/&gt;+ registrarCategoria()&lt;br/&gt;+ modificarCategoria()&lt;br/&gt;+ consultarCategoria()" vertex="1">
+          <mxGeometry height="190" width="160" x="210" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="libro" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Libro&lt;/b&gt;&lt;hr/&gt;- idLibro: int&lt;br/&gt;- isbn: String&lt;br/&gt;- titulo: String&lt;br/&gt;- autor: String&lt;br/&gt;- editorial: String&lt;br/&gt;- estado: String&lt;hr/&gt;+ registrarLibro()&lt;br/&gt;+ modificarLibro()&lt;br/&gt;+ deshabilitarLibro()&lt;br/&gt;+ consultarDisponibilidad()" vertex="1">
+          <mxGeometry height="210" width="160" x="510" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="prestamo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Prestamo&lt;/b&gt;&lt;hr/&gt;- idPrestamo: int&lt;br/&gt;- fechaPrestamo: Date&lt;br/&gt;- fechaDevolucionProgramada: Date&lt;br/&gt;- estadoPrestamo: String&lt;hr/&gt;+ registrarPrestamo()&lt;br/&gt;+ validarDisponibilidad()&lt;br/&gt;+ actualizarEstado()" vertex="1">
+          <mxGeometry height="175" width="230" x="885" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="devolucion" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Devolucion&lt;/b&gt;&lt;hr/&gt;- idDevolucion: int&lt;br/&gt;- fechaDevolucionReal: Date&lt;br/&gt;- observacion: String&lt;br/&gt;- estadoLibro: String&lt;hr/&gt;+ registrarDevolucion()&lt;br/&gt;+ calcularAtraso()&lt;br/&gt;+ actualizarDisponibilidad()" vertex="1">
+          <mxGeometry height="180" width="180" x="910" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="reporte" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAF2F8;strokeColor=#1F4E79;fontSize=12;align=left;spacing=8;" value="&lt;b&gt;Reporte&lt;/b&gt;&lt;hr/&gt;- idReporte: int&lt;br/&gt;- tipoReporte: String&lt;br/&gt;- fechaGeneracion: Date&lt;br/&gt;- periodo: String&lt;hr/&gt;+ generarReporte()&lt;br/&gt;+ filtrarReporte()&lt;br/&gt;+ exportarReporte()" vertex="1">
+          <mxGeometry height="165" width="160" x="510" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="rol" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="usuario" value="1        0..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="usuario" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="prestamo" value="1        0..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="categoria" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="libro" value="1        0..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="libro" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="prestamo" value="1        0..*">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="prestamo" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="devolucion" value="1        0..1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="reporte" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;dashed=1;" target="usuario" value="consulta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="reporte" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;dashed=1;" target="libro" value="consulta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="reporte" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;dashed=1;" target="prestamo" value="consulta">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="5.2.2 Diagrama de Componentes UML" id="1">
+    <mxGraphModel dx="1488" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#17365D;" value="Diagrama de Componentes UML - Sistema UNILIB" vertex="1">
+          <mxGeometry height="40" width="600" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Usuario del Sistema" vertex="1">
+          <mxGeometry height="100" width="60" x="60" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="web" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontStyle=1;" value="Interfaz Web&lt;br/&gt;UNILIB" vertex="1">
+          <mxGeometry height="80" width="180" x="200" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="seg" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Módulo de Seguridad&lt;br/&gt;Autenticación y permisos" vertex="1">
+          <mxGeometry height="75" width="270" x="500" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="usu" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Módulo de Usuarios&lt;br/&gt;Registro, edición y desactivación" vertex="1">
+          <mxGeometry height="75" width="270" x="500" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lib" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Módulo de Libros y Catálogo&lt;br/&gt;Libros, categorías y disponibilidad" vertex="1">
+          <mxGeometry height="75" width="270" x="500" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="pre" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Módulo de Préstamos y Devoluciones&lt;br/&gt;Préstamo, devolución y estados" vertex="1">
+          <mxGeometry height="75" width="270" x="500" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="rep" parent="1" style="shape=component;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Módulo de Reportes&lt;br/&gt;Estadísticas y consultas" vertex="1">
+          <mxGeometry height="75" width="270" x="500" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="bd" parent="1" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#F8CECC;strokeColor=#B85450;fontStyle=1;" value="Base de Datos UNILIB&lt;br/&gt;Usuarios, Libros, Préstamos,&lt;br/&gt;Devoluciones y Reportes" vertex="1">
+          <mxGeometry height="140" width="230" x="960" y="332.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ce1" edge="1" parent="1" source="actor" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="web" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="web_seg" edge="1" parent="1" source="web" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="seg" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="seg_bd" edge="1" parent="1" source="seg" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="bd" value="lee/escribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="web_usu" edge="1" parent="1" source="web" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="usu" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="usu_bd" edge="1" parent="1" source="usu" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="bd" value="lee/escribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="web_lib" edge="1" parent="1" source="web" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="lib" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lib_bd" edge="1" parent="1" source="lib" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="bd" value="lee/escribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="web_pre" edge="1" parent="1" source="web" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="pre" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pre_bd" edge="1" parent="1" source="pre" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="bd" value="lee/escribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="web_rep" edge="1" parent="1" source="web" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="rep" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rep_bd" edge="1" parent="1" source="rep" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="bd" value="lee/escribe">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pre_lib" edge="1" parent="1" source="pre" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="lib" value="consulta disponibilidad">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rep_usu" edge="1" parent="1" source="rep" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;strokeColor=#333333;" target="usu" value="consulta datos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

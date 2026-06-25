@@ -1,0 +1,741 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="6">
+  <diagram id="Xz562iI5emEvR9KRENlD" name="Caso de Uso General">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-59" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#1F4E79;align=center;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Diagrama de Casos de Uso General UNILIB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="700" x="335" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-60" parent="1" style="text;html=1;fontSize=16;align=center;" value="Gestión Bibliotecaria Universitaria" vertex="1">
+          <mxGeometry height="30" width="400" x="485" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="695" width="960" x="205" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-62" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Estudiante" vertex="1">
+          <mxGeometry height="80" width="40" x="55" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-63" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Docente" vertex="1">
+          <mxGeometry height="80" width="40" x="55" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="80" width="40" x="55" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-65" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Jefe de Biblioteca" vertex="1">
+          <mxGeometry height="80" width="40" x="1250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-66" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Administrador" vertex="1">
+          <mxGeometry height="80" width="40" x="1215" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-67" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Iniciar sesión" vertex="1">
+          <mxGeometry height="55" width="170" x="295" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-68" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar libros en&lt;br&gt;el catálogo" vertex="1">
+          <mxGeometry height="60" width="170" x="295" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-69" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver detalle de libro" vertex="1">
+          <mxGeometry height="55" width="170" x="295" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-70" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Solicitar préstamo&lt;br&gt;de libro" vertex="1">
+          <mxGeometry height="60" width="170" x="265" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-71" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver historial de&lt;br&gt;préstamos" vertex="1">
+          <mxGeometry height="60" width="170" x="285" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-72" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Autenticar usuario" vertex="1">
+          <mxGeometry height="55" width="170" x="565" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-73" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar catálogo&lt;br&gt;de libros" vertex="1">
+          <mxGeometry height="70" width="170" x="545" y="407.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-74" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar disponibilidad&lt;br&gt;de libro" vertex="1">
+          <mxGeometry height="65" width="190" x="535" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Actualizar estado&lt;br&gt;de disponibilidad&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="80" width="180" x="550" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-76" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar usuarios" vertex="1">
+          <mxGeometry height="55" width="170" x="255" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-77" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar préstamos&lt;br&gt;(Consultar, renovar)" vertex="1">
+          <mxGeometry height="60" width="190" x="255" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar devoluciones" vertex="1">
+          <mxGeometry height="55" width="190" x="255" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-79" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar usuarios&lt;br&gt;(Crear, editar, desactivar)" vertex="1">
+          <mxGeometry height="65" width="210" x="840" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-80" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar roles&lt;br&gt;y permisos" vertex="1">
+          <mxGeometry height="60" width="200" x="845" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-81" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar libros&lt;br&gt;(Crear, editar, deshabilitar)" vertex="1">
+          <mxGeometry height="65" width="220" x="835" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-82" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Gestionar categorías" vertex="1">
+          <mxGeometry height="55" width="190" x="855" y="362.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-83" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar préstamo" vertex="1">
+          <mxGeometry height="55" width="190" x="860" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-84" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar devolución" vertex="1">
+          <mxGeometry height="55" width="190" x="845" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-85" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Generar reportes&lt;br&gt;(Préstamos, usuarios,&lt;br&gt;libros más solicitados)" vertex="1">
+          <mxGeometry height="80" width="220" x="895" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-86" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Exportar reportes" vertex="1">
+          <mxGeometry height="55" width="170" x="955" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-87" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-62" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-88" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-62" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-89" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-62" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-90" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-62" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-91" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-62" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-92" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-63" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-93" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-64" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-94" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-64" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-95" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-64" style="endArrow=none;html=1;" target="bo7bHcTVtc_rN4h4XZ3q-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-96" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-65" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-97" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-65" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-98" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-65" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-99" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-65" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-100" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-65" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-101" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-65" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-102" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-66" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-103" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-66" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-104" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-66" style="endArrow=open;html=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-105" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-67" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-72" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-106" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-79" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-72" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-107" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-68" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-73" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-108" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-70" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-73" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-109" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-73" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-74" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-110" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-83" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-74" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-111" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-84" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-73" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-112" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-76" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-75" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-113" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-77" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-75" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-114" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-78" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-75" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-115" edge="1" parent="1" source="bo7bHcTVtc_rN4h4XZ3q-84" style="endArrow=block;html=1;dashed=1;endFill=0;" target="bo7bHcTVtc_rN4h4XZ3q-75" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bo7bHcTVtc_rN4h4XZ3q-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#B7C9E2;align=left;spacing=10;" value="Descripción general: El diagrama representa las principales funcionalidades del sistema UNILIB y la interacción de sus actores. Estudiantes y docentes consultan el catálogo y solicitan préstamos, mientras bibliotecarios, jefe de biblioteca y administrador gestionan la operación y administración." vertex="1">
+          <mxGeometry height="70" width="690" x="305" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gBvNkb_faDSReDKnp3Mj" name="CU-01 Gestion Usuarios">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-36" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=24;fontStyle=1;fontColor=#1F4E79;align=center;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Diagrama de Caso de Uso Específico 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="680" x="220" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-37" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1;align=center;" value="Caso de Uso: Gestión de Usuarios" vertex="1">
+          <mxGeometry height="35" width="560" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-38" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;align=center;" value="Código: CU-01   |   Prioridad: Alta   |   Actores principales: Administrador, Jefe de Biblioteca" vertex="1">
+          <mxGeometry height="30" width="740" x="190" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontSize=14;fontStyle=1;verticalAlign=top;spacingTop=10;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="780" width="870" x="150" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-40" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Administrador" vertex="1">
+          <mxGeometry height="80" width="40" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-41" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;" value="Jefe de&lt;br&gt;Biblioteca" vertex="1">
+          <mxGeometry height="80" width="40" x="40" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;" value="Gestionar usuarios&lt;br&gt;(Crear, consultar, editar,&lt;br&gt;desactivar)" vertex="1">
+          <mxGeometry height="95" width="210" x="213" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="543" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="543" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Editar usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="543" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-46" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Desactivar usuario" vertex="1">
+          <mxGeometry height="60" width="170" x="543" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ingresar datos&lt;br&gt;del usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Asignar rol&lt;br&gt;al usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validar datos&lt;br&gt;ingresados" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-50" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar usuario&lt;br&gt;por filtros" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-51" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ver detalle del&lt;br&gt;usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Modificar datos&lt;br&gt;del usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-53" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Actualizar rol&lt;br&gt;del usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="813" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Confirmar&lt;br&gt;desactivación" vertex="1">
+          <mxGeometry height="55" width="160" x="808" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar motivo&lt;br&gt;(opcional)" vertex="1">
+          <mxGeometry height="55" width="160" x="808" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-56" edge="1" parent="1" style="endArrow=open;html=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="82.99999999999977" y="301.9661911052817" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-57" edge="1" parent="1" style="endArrow=open;html=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="82.99999999999977" y="523.1319317728537" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-58" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-42" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-43" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-59" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-42" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-44" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-60" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-42" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-45" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-61" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-42" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-46" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-62" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-43" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-47" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-63" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-43" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-48" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-64" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-43" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-49" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-65" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-44" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-50" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-66" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-44" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-51" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-67" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-45" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-52" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-68" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-45" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-53" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-69" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-46" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-54" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNUzQ54Paggb9LbIn1XO-70" edge="1" parent="1" source="CNUzQ54Paggb9LbIn1XO-46" style="endArrow=block;html=1;dashed=1;endFill=0;" target="CNUzQ54Paggb9LbIn1XO-55" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU-02 Gestion de Libros" id="0">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=22;fontStyle=1;" value="Diagrama de Caso de Uso Específico 2" vertex="1">
+          <mxGeometry height="40" width="700" x="320" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;fontSize=16;fontStyle=1;" value="Caso de Uso: Gestión de Libros | Código: CU-02 | Prioridad: Alta" vertex="1">
+          <mxGeometry height="30" width="520" x="285" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;spacingTop=8;fillColor=none;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="730" width="770" x="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador" vertex="1">
+          <mxGeometry height="85" width="45" x="40" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="actor1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="85" width="45" x="40" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="main" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;" value="Gestionar libros&lt;br&gt;(Crear, consultar,&lt;br&gt;editar, deshabilitar)" vertex="1">
+          <mxGeometry height="80" width="180" x="180" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actor0_main" edge="1" parent="1" source="actor0" style="endArrow=open;html=1;endFill=0;" target="main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actor1_main" edge="1" parent="1" source="actor1" style="endArrow=open;html=1;endFill=0;" target="main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar libro" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc0" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Ingresar datos&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c0" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Asignar categoría&lt;br&gt;al libro" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c1" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Validar datos&lt;br&gt;ingresados" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c2" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultar libro" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc1" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Buscar libro&lt;br&gt;por filtros" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c0" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Ver detalle&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c1" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Editar libro" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc2" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Modificar datos&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c0" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Actualizar estado&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c1" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Deshabilitar libro" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc3" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc3" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Confirmar&lt;br&gt;deshabilitación" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c0" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Registrar motivo&lt;br&gt;(opcional)" vertex="1">
+          <mxGeometry height="45" width="155" x="720" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c1" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU-03 Gestion de Prestamos" id="1">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#17365D;shadow=1;" value="&lt;font style=&quot;color: rgb(3, 3, 3);&quot;&gt;Diagrama de Caso de Uso Específico 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="700" x="407.5" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;fontSize=16;fontStyle=1;" value="Caso de Uso: Gestión de Préstamos | Código: CU-03 | Prioridad: Muy Alta" vertex="1">
+          <mxGeometry height="30" width="520" x="330" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;spacingTop=8;fillColor=none;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="710" width="870" x="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="85" width="45" x="50" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="main" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;" value="Registrar préstamo&lt;br&gt;(Prestar libro&lt;br&gt;a usuario)" vertex="1">
+          <mxGeometry height="80" width="180" x="200" y="367.5" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actor0_main" edge="1" parent="1" source="actor0" style="endArrow=open;html=1;endFill=0;" target="main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar usuario" vertex="1">
+          <mxGeometry height="55" width="150" x="515" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc0" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Ingresar datos&lt;br&gt;de búsqueda" vertex="1">
+          <mxGeometry height="45" width="155" x="680" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c0" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Seleccionar&lt;br&gt;usuario" vertex="1">
+          <mxGeometry height="45" width="155" x="770" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c1" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar libro" vertex="1">
+          <mxGeometry height="55" width="150" x="520" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc1" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Ingresar datos&lt;br&gt;de búsqueda" vertex="1">
+          <mxGeometry height="45" width="155" x="770" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c0" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Seleccionar&lt;br&gt;libro" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c1" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Verificar disponibilidad&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="55" width="150" x="525" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc2" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Validar estado&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c0" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar préstamo&lt;br&gt;en el sistema" vertex="1">
+          <mxGeometry height="55" width="150" x="520" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc3" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc3" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Asignar fecha&lt;br&gt;de préstamo" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="467.5" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c0" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Asignar fecha&lt;br&gt;de devolución" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c1" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Confirmar préstamo" vertex="1">
+          <mxGeometry height="55" width="150" x="510" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc4" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc4" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Generar comprobante&lt;br&gt;(opcional)" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc4_uc4_c0" edge="1" parent="1" source="uc4" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc4_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc4_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Notificar al usuario&lt;br&gt;(opcional)" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc4_uc4_c1" edge="1" parent="1" source="uc4" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc4_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU-04 Gestion de Devoluciones" id="2">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;fontSize=22;fontStyle=1;" value="Diagrama de Caso de Uso Específico 4" vertex="1">
+          <mxGeometry height="40" width="700" x="350" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;fontSize=16;fontStyle=1;" value="Caso de Uso: Gestión de Devoluciones | Código: CU-04 | Prioridad: Alta" vertex="1">
+          <mxGeometry height="30" width="520" x="300" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;spacingTop=8;fillColor=none;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="660" width="810" x="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="85" width="45" x="60" y="377.5" as="geometry" />
+        </mxCell>
+        <mxCell id="main" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;" value="Registrar devolución&lt;br&gt;(Devolver libro&lt;br&gt;prestado)" vertex="1">
+          <mxGeometry height="80" width="180" x="210" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actor0_main" edge="1" parent="1" source="actor0" style="endArrow=open;html=1;endFill=0;" target="main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Buscar préstamo&lt;br&gt;activo" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc0" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Buscar por usuario&lt;br&gt;o libro" vertex="1">
+          <mxGeometry height="45" width="155" x="770" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c0" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Seleccionar&lt;br&gt;préstamo" vertex="1">
+          <mxGeometry height="45" width="155" x="770" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c1" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Verificar información&lt;br&gt;del préstamo" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc1" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Validar estado&lt;br&gt;del préstamo" vertex="1">
+          <mxGeometry height="45" width="155" x="770" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c0" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Calcular multa&lt;br&gt;(si aplica)" vertex="1">
+          <mxGeometry height="45" width="155" x="770" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c1" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrar devolución&lt;br&gt;en el sistema" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="462.5" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc2" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Actualizar estado&lt;br&gt;del libro" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c0" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Cerrar préstamo" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c1" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Confirmar devolución" vertex="1">
+          <mxGeometry height="55" width="150" x="470" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc3" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc3" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Generar comprobante&lt;br&gt;(opcional)" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c0" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Notificar al usuario&lt;br&gt;(opcional)" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c1" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU-05 Generacion de Reportes" id="3">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1240" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;fontColor=#17365D;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Diagrama de Caso de Uso Específico 5&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="700" x="330" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;fontSize=16;fontStyle=1;" value="Caso de Uso: Generación de Reportes | Código: CU-05 | Prioridad: Media" vertex="1">
+          <mxGeometry height="30" width="520" x="260" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;spacingTop=8;fillColor=none;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="850" width="800" x="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="actor0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Jefe de Biblioteca" vertex="1">
+          <mxGeometry height="85" width="45" x="40" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="actor1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador" vertex="1">
+          <mxGeometry height="85" width="45" x="40" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="main" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1;" value="Generar reportes&lt;br&gt;(Préstamos, usuarios,&lt;br&gt;libros más solicitados)" vertex="1">
+          <mxGeometry height="80" width="180" x="200" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actor0_main" edge="1" parent="1" source="actor0" style="endArrow=open;html=1;endFill=0;" target="main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_actor1_main" edge="1" parent="1" source="actor1" style="endArrow=open;html=1;endFill=0;" target="main" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Seleccionar tipo&lt;br&gt;de reporte" vertex="1">
+          <mxGeometry height="55" width="150" x="445" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc0" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Préstamos más&lt;br&gt;frecuentes" vertex="1">
+          <mxGeometry height="45" width="155" x="520" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c0" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Usuarios&lt;br&gt;frecuentes" vertex="1">
+          <mxGeometry height="45" width="155" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c1" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Libros más&lt;br&gt;solicitados" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c2" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc0_c3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Préstamos&lt;br&gt;atrasados" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc0_uc0_c3" edge="1" parent="1" source="uc0" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc0_c3" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Definir filtros" vertex="1">
+          <mxGeometry height="55" width="150" x="520" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc1" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Rango de fechas" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c0" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Categoría" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c1" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1_c2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Otros filtros" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="562.5" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc1_uc1_c2" edge="1" parent="1" source="uc1" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc1_c2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Generar reporte" vertex="1">
+          <mxGeometry height="55" width="150" x="490" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc2" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc2" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Procesar datos" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c0" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Mostrar vista&lt;br&gt;previa" vertex="1">
+          <mxGeometry height="45" width="155" x="780" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc2_uc2_c1" edge="1" parent="1" source="uc2" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc2_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Exportar reporte" vertex="1">
+          <mxGeometry height="55" width="150" x="390" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_main_uc3" edge="1" parent="1" source="main" style="dashed=1;endArrow=block;html=1;fontSize=11;endFill=0;" target="uc3" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Exportar a PDF" vertex="1">
+          <mxGeometry height="45" width="155" x="640" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c0" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c0" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3_c1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" value="Exportar a Excel" vertex="1">
+          <mxGeometry height="45" width="155" x="640" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_uc3_uc3_c1" edge="1" parent="1" source="uc3" style="dashed=1;endArrow=block;html=1;fontSize=10;endFill=0;" target="uc3_c1" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
