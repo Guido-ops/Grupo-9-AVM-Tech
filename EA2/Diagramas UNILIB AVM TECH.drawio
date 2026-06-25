@@ -1,0 +1,328 @@
+<mxfile host="Electron" agent="ChatGPT" pages="6">
+  <diagram id="0bc03f7bb092" name="Arquitectura 4+1">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="UNILIB - Arquitectura 4+1" vertex="1">
+          <mxGeometry height="40" width="750" x="210" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=8;arcSize=12;" value="Vista de Escenarios Casos de uso principales" vertex="1">
+          <mxGeometry height="80" width="230" x="442" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Vista Lógica Clases principales del dominio" vertex="1">
+          <mxGeometry height="80" width="230" x="212" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=8;arcSize=12;" value="Vista de Procesos Flujo general de préstamo" vertex="1">
+          <mxGeometry height="80" width="230" x="692" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Vista de Desarrollo / Implementación Módulos del sistema" vertex="1">
+          <mxGeometry height="80" width="260" x="677" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;spacing=8;arcSize=12;" value="Vista Física / Despliegue Nodos generales de ejecución" vertex="1">
+          <mxGeometry height="80" width="260" x="202" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" edge="1" parent="1" source="n4" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" edge="1" parent="1" source="n5" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" edge="1" parent="1" source="n6" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" edge="1" parent="1" source="n7" style="endArrow=none;html=1;rounded=0;strokeWidth=1.5;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="n3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="988cecc17482" name="Casos de Uso">
+    <mxGraphModel dx="1144" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="Diagrama de Casos de Uso - UNILIB" vertex="1">
+          <mxGeometry height="40" width="700" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#666666;fontSize=16;fontStyle=1;verticalAlign=top;spacingTop=10;" value="Sistema UNILIB" vertex="1">
+          <mxGeometry height="580" width="600" x="290" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" value="Estudiante / Docente" vertex="1">
+          <mxGeometry height="130" width="80" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" value="Bibliotecario" vertex="1">
+          <mxGeometry height="140" width="80" x="70" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" value="Jefe de biblioteca" vertex="1">
+          <mxGeometry height="130" width="80" x="970" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="130" width="80" x="960" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Consultar catálogo" vertex="1">
+          <mxGeometry height="60" width="170" x="350" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Solicitar préstamo" vertex="1">
+          <mxGeometry height="60" width="170" x="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Gestionar préstamos y devoluciones" vertex="1">
+          <mxGeometry height="70" width="230" x="465" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Gestionar usuarios" vertex="1">
+          <mxGeometry height="60" width="180" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Gestionar libros" vertex="1">
+          <mxGeometry height="60" width="180" x="600" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;" value="Generar reportes" vertex="1">
+          <mxGeometry height="60" width="180" x="680" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" edge="1" parent="1" source="n4" style="endArrow=none;html=1;" target="n8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" edge="1" parent="1" source="n4" style="endArrow=none;html=1;" target="n9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" edge="1" parent="1" source="n5" style="endArrow=none;html=1;" target="n10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" edge="1" parent="1" source="n5" style="endArrow=none;html=1;" target="n11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" edge="1" parent="1" source="n5" style="endArrow=none;html=1;" target="n12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" edge="1" parent="1" source="n6" style="endArrow=none;html=1;" target="n13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" edge="1" parent="1" source="n7" style="endArrow=none;html=1;" target="n11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" edge="1" parent="1" source="n7" style="endArrow=none;html=1;" target="n12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="64216a50628e" name="Clases">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="Diagrama de Clases - UNILIB" vertex="1">
+          <mxGeometry height="40" width="730" x="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Usuario&lt;br&gt;&lt;hr&gt;idUsuario&lt;br&gt;nombre&lt;br&gt;perfil&lt;br&gt;estado" vertex="1">
+          <mxGeometry height="120" width="170" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Libro&lt;br&gt;&lt;hr&gt;idLibro&lt;br&gt;título&lt;br&gt;autor&lt;br&gt;estado" vertex="1">
+          <mxGeometry height="120" width="170" x="575" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Préstamo&lt;br&gt;&lt;hr&gt;idPrestamo&lt;br&gt;fechaInicio&lt;br&gt;fechaDevolución&lt;br&gt;estado" vertex="1">
+          <mxGeometry height="130" width="180" x="190" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Devolución&lt;br&gt;&lt;hr&gt;idDevolucion&lt;br&gt;fecha&lt;br&gt;observación" vertex="1">
+          <mxGeometry height="110" width="170" x="575" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Catálogo&lt;br&gt;&lt;hr&gt;búsqueda&lt;br&gt;categoría" vertex="1">
+          <mxGeometry height="100" width="160" x="880" y="293" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Reporte&lt;br&gt;&lt;hr&gt;tipo&lt;br&gt;fechaGeneración" vertex="1">
+          <mxGeometry height="100" width="160" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" value="Categoría&lt;br&gt;&lt;hr&gt;idCategoría&lt;br&gt;nombre" vertex="1">
+          <mxGeometry height="100" width="160" x="580" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" edge="1" parent="1" source="n3" style="endArrow=none;html=1;" target="n5" value="solicita / posee">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" edge="1" parent="1" source="n4" style="endArrow=none;html=1;" target="n5" value="es prestado en">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" edge="1" parent="1" source="n5" style="endArrow=none;html=1;" target="n6" value="puede finalizar con">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" edge="1" parent="1" source="n9" style="endArrow=none;html=1;" target="n4" value="clasifica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" edge="1" parent="1" source="n7" style="endArrow=none;html=1;" target="n4" value="muestra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" edge="1" parent="1" source="n8" style="endArrow=none;html=1;" target="n5" value="resume información">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0d7e754868d8" name="Componentes">
+    <mxGraphModel dx="1144" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="Diagrama de Componentes - UNILIB" vertex="1">
+          <mxGeometry height="40" width="700" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=8;arcSize=12;" value="Capa de Presentación Interfaz Web UNILIB" vertex="1">
+          <mxGeometry height="75" width="330" x="410" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;spacing=8;arcSize=12;" value="Módulo de Seguridad Inicio de sesión y perfiles" vertex="1">
+          <mxGeometry height="75" width="260" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Módulo de Usuarios" vertex="1">
+          <mxGeometry height="70" width="200" x="220" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Módulo de Libros / Catálogo" vertex="1">
+          <mxGeometry height="70" width="240" x="910" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=8;arcSize=12;" value="Módulo de Préstamos y Devoluciones" vertex="1">
+          <mxGeometry height="75" width="270" x="440" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Módulo de Reportes" vertex="1">
+          <mxGeometry height="75" width="220" x="770" y="347.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Base de Datos UNILIB Usuarios, libros, préstamos y devoluciones" vertex="1">
+          <mxGeometry height="85" width="380" x="385" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" edge="1" parent="1" source="n3" style="endArrow=block;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="n4" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" edge="1" parent="1" source="n3" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="n5" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" edge="1" parent="1" source="n3" style="endArrow=block;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;" target="n6" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" edge="1" parent="1" source="n3" style="endArrow=block;html=1;" target="n7" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" edge="1" parent="1" source="n3" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="n8" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" edge="1" parent="1" source="n4" style="endArrow=block;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="n9" value="consulta / actualiza">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n16" edge="1" parent="1" source="n5" style="endArrow=block;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="n9" value="consulta / actualiza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" edge="1" parent="1" source="n6" style="endArrow=block;html=1;entryX=1.008;entryY=0.641;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;entryPerimeter=0;" target="n9" value="consulta / actualiza">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n18" edge="1" parent="1" source="n7" style="endArrow=block;html=1;" target="n9" value="consulta / actualiza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" edge="1" parent="1" source="n8" style="endArrow=block;html=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="n9" value="consulta / actualiza">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5dae0ebc4fe7" name="Actividad - Solicitud y Registro de prestamo">
+    <mxGraphModel dx="1144" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="Diagrama de Actividad - Solicitud y Registro de Préstamo" vertex="1">
+          <mxGeometry height="40" width="870" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="550" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=8;arcSize=12;" value="Usuario consulta catálogo" vertex="1">
+          <mxGeometry height="55" width="200" x="465" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Sistema muestra disponibilidad" vertex="1">
+          <mxGeometry height="55" width="220" x="455" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="¿Libro disponible?" vertex="1">
+          <mxGeometry height="80" width="170" x="480" y="334" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=8;arcSize=12;" value="Bibliotecario registra préstamo" vertex="1">
+          <mxGeometry height="55" width="250" x="440" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Sistema actualiza estado del libro" vertex="1">
+          <mxGeometry height="55" width="270" x="430" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" parent="1" style="ellipse;html=1;shape=doubleEllipse;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="550" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=13;spacing=8;arcSize=12;" value="Informar que no está disponible" vertex="1">
+          <mxGeometry height="55" width="240" x="720" y="346.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" edge="1" parent="1" source="n3" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" edge="1" parent="1" source="n4" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" edge="1" parent="1" source="n5" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" edge="1" parent="1" source="n6" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n7" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" edge="1" parent="1" source="n7" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" edge="1" parent="1" source="n8" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" edge="1" parent="1" source="n6" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;" target="n10" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" edge="1" parent="1" source="n10" style="endArrow=block;html=1;rounded=0;strokeWidth=1.5;edgeStyle=orthogonalEdgeStyle;" target="n9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="695" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e3a1362a8324" name="Despliegue">
+    <mxGraphModel dx="1030" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;" value="Diagrama de Despliegue - UNILIB" vertex="1">
+          <mxGeometry height="40" width="700" x="230" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=8;" value="Dispositivo del usuario Notebook / PC / celular" vertex="1">
+          <mxGeometry height="90" width="250" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=8;arcSize=12;" value="Navegador Web" vertex="1">
+          <mxGeometry height="55" width="160" x="165" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=8;arcSize=12;" value="Servidor Web / Aplicación Sistema UNILIB" vertex="1">
+          <mxGeometry height="110" width="280" x="470" y="292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="1" style="shape=cylinder3d;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=13;" value="Servidor de Base de Datos BD UNILIB" vertex="1">
+          <mxGeometry height="110" width="250" x="860" y="292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" edge="1" parent="1" source="n3" style="endArrow=block;html=1;" target="n4" value="usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" edge="1" parent="1" source="n4" style="endArrow=block;html=1;" target="n5" value="HTTP / HTTPS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" edge="1" parent="1" source="n5" style="endArrow=block;html=1;" target="n6" value="consulta datos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=8;" value="Actores: Estudiante, Docente, Bibliotecario, Jefe de biblioteca y Administrador" vertex="1">
+          <mxGeometry height="60" width="920" x="110" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
